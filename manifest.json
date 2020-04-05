@@ -1,0 +1,25 @@
+{
+  "name": "quote-generator-in-new-tab",
+  "version": "1.0",
+  "description": "Generate a quote in any new default tab!",
+  "manifest_version": 2,
+  "version": "1.0",
+  "author": "Jacky L. Vincent",
+
+  "browser_action": {
+    "default_title": "Have a good bullshit day!"
+  },
+
+  "icons": {
+    "16": "icons/icon_16.png",
+    "32": "icons/icon_32.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+
+  "permissions": ["activeTab"]
+}
